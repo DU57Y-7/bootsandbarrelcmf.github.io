@@ -1,13 +1,156 @@
-<h1>Coming Soon</h1>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<p>
-    Something exciting is coming to the Village... 👀
-</p>
+    <title>Boots & Barrel CMF</title>
 
-<p>
-    Stay tuned to hear more.
-</p>
+    <link rel="icon" href="logo.png">
 
-<a href="mailto:info@bootsandbarrelcmf.com" class="email">
-    Contact us: info@bootsandbarrelcmf.com
-</a>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            background: linear-gradient(
+                135deg,
+                #f7f8fc 0%,
+                #eef3f9 100%
+            );
+
+            font-family:
+                -apple-system,
+                BlinkMacSystemFont,
+                "Segoe UI",
+                Roboto,
+                Helvetica,
+                Arial,
+                sans-serif;
+
+            color: #222;
+        }
+
+        .container {
+            text-align: center;
+
+            background: rgba(255, 255, 255, 0.95);
+
+            padding: 60px 50px;
+
+            border-radius: 24px;
+
+            box-shadow:
+                0 20px 50px rgba(0, 0, 0, 0.08);
+
+            width: min(90%, 600px);
+        }
+
+        .logo {
+            width: 280px;
+            max-width: 80%;
+
+            margin-bottom: 40px;
+        }
+
+        h1 {
+            font-size: 2rem;
+            font-weight: 700;
+
+            margin-bottom: 25px;
+
+            color: #1f2937;
+        }
+
+        p {
+            font-size: 1.1rem;
+
+            line-height: 1.6;
+
+            color: #5b6472;
+
+            margin-bottom: 15px;
+        }
+
+        .email {
+            display: inline-block;
+
+            margin-top: 20px;
+
+            text-decoration: none;
+
+            color: #0066cc;
+
+            font-size: 1.05rem;
+
+            font-weight: 600;
+
+            transition: 0.2s;
+        }
+
+        .email:hover {
+            color: #004999;
+        }
+
+        @media (max-width: 600px) {
+
+            .container {
+                padding: 45px 30px;
+            }
+
+            h1 {
+                font-size: 1.6rem;
+            }
+
+            p {
+                font-size: 1rem;
+            }
+
+            .logo {
+                width: 220px;
+            }
+        }
+
+    </style>
+
+</head>
+
+<body>
+
+    <div class="container">
+
+        <img 
+            src="logo.png" 
+            alt="Boots & Barrel CMF Logo" 
+            class="logo"
+        >
+
+        <h1>Coming Soon</h1>
+
+        <p>
+            Something exciting is coming to the Village... 👀
+        </p>
+
+        <p>
+            Stay tuned to hear more.
+        </p>
+
+        <a 
+            href="mailto:info@bootsandbarrelcmf.com" 
+            class="email"
+        >
+            Contact us: info@bootsandbarrelcmf.com
+        </a>
+
+    </div>
+
+</body>
+</html>

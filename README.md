@@ -20,3 +20,7 @@ Revision: Hero typography strengthened for sunset contrast; all six full-colour 
 Final adjustment: background removed from Spotify, TikTok and LinkedIn PNGs while preserving white logo artwork. Main date restored to thick white Pacifico cursive.
 
 PRE-VENUE-ANNOUNCEMENT EDITION: all venue references removed until agreement is signed. Original approved site remains untouched.
+
+
+## November 2026 approved copy update
+Full festival, sponsorship, EOI, lineup and ticket copy updated. Four-level type scale added. All original artwork, social links and functionality retained. No venue name disclosed.

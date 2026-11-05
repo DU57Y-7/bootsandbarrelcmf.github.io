@@ -41,3 +41,23 @@
 /* Restore the original elegant, thin sunset cursive — white only. */
 .hero h1 {font-family:'Italianno',cursive!important;font-weight:400!important;font-size:clamp(55px,7.5vw,105px)!important;line-height:.95!important;letter-spacing:normal!important;color:#fff!important;-webkit-text-stroke:0!important;text-shadow:0 2px 5px rgba(0,0,0,.9),0 5px 18px rgba(0,0,0,.8)!important;margin:22px 0 14px!important;}
 @media(max-width:520px){.hero h1{font-size:clamp(55px,7.5vw,105px)!important;}}
+
+/* Final approved typography: four consistent levels, with the original date artwork treatment preserved. */
+:root{--type-display:48px;--type-heading:28px;--type-body:17px;--type-note:13px}
+.section h2{font-size:var(--type-display);line-height:1.06}
+.section h3,.sponsor-detail h3,.opportunity h3,.contact h3{font-size:var(--type-heading)}
+.section p:not(.eyebrow):not(.fine),.section .lead,.sponsor-detail p,.opportunity p{font-size:var(--type-body)}
+.section .eyebrow,.section .fine,.detail-no,.opportunity-num,.hero-rule,.location,.hero-link,.scroll-cue,nav a,.text-cta,.opportunity a,footer p{font-size:var(--type-note)}
+.section .fine{font-size:var(--type-note)!important}
+.lineup-announcement,.ticket-detail{margin-top:22px}
+@media(max-width:800px){:root{--type-display:34px;--type-heading:24px;--type-body:16px;--type-note:13px}}
+/* Preserve the elegant original sunset cursive date, in white. */
+.hero h1{font-family:'Italianno',cursive!important;font-size:clamp(55px,7.5vw,105px)!important;font-weight:400!important;line-height:.95!important;letter-spacing:normal!important;color:#fff!important;-webkit-text-stroke:0!important;text-shadow:0 2px 5px rgba(0,0,0,.9),0 5px 18px rgba(0,0,0,.8)!important}
+
+/* Restore prominent, visible section headings without changing the approved copy. */
+:root{--type-display:clamp(58px,7vw,94px);--type-heading:28px;--type-body:17px;--type-note:13px}
+.section h2{display:block!important;visibility:visible!important;opacity:1!important;font-family:'Cormorant Garamond',Georgia,serif!important;font-size:var(--type-display)!important;font-weight:500!important;line-height:1.02!important;letter-spacing:-.025em!important;margin:21px 0 31px!important}
+.section.light h2{color:#211711!important}.section.dark h2{color:#f8efe6!important}
+.section.light h2 em{color:#865331!important}.section.dark h2 em{color:#d8a678!important}
+.section h3{font-size:var(--type-heading)!important;visibility:visible!important;opacity:1!important}
+@media(max-width:800px){:root{--type-display:clamp(42px,10vw,65px);--type-heading:24px;--type-body:16px;--type-note:13px}}

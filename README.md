@@ -18,3 +18,5 @@ Upload the entire directory contents (including assets/) to the root of the GitH
 Revision: Hero typography strengthened for sunset contrast; all six full-colour platform logos shown in header and footer; About section links to Razor Blade Productions team. Social logos are fetched from Iconify CDN and require internet connectivity.
 
 Final adjustment: background removed from Spotify, TikTok and LinkedIn PNGs while preserving white logo artwork. Main date restored to thick white Pacifico cursive.
+
+PRE-VENUE-ANNOUNCEMENT EDITION: all venue references removed until agreement is signed. Original approved site remains untouched.

@@ -1,5 +1,5 @@
 // Enter verified official profile URLs to activate each link.
-const SOCIAL_URLS={instagram:'',facebook:'',youtube:'',tiktok:'',linkedin:'',spotify:''};
+const SOCIAL_URLS={instagram:'https://www.instagram.com/bootsandbarrelcmf/',facebook:'',youtube:'https://www.youtube.com/@bootsandbarrelcmf',tiktok:'https://www.tiktok.com/@bootsandbarrelcmf',linkedin:'',spotify:'https://open.spotify.com/user/31mk7hq2fstuo4yikmphltuzv3te'};
 // Configure a real email-list provider before accepting registrations.
 const MAILING_LIST_ENDPOINT='';
 for(const id of ['top-social','footer-social']){const el=document.getElementById(id);for(const [name,url] of Object.entries(SOCIAL_URLS)){if(!/^https:\/\//i.test(url))continue;const a=document.createElement('a');a.href=url;a.target='_blank';a.rel='noopener noreferrer';a.textContent=name;a.setAttribute('aria-label',name);el.append(a);}}
